@@ -1,0 +1,19 @@
+# --- SEGURIDAD (¡CRÍTICO!) ---
+# Esto evita que se suban tus claves de Groq y contraseñas de MySQL
+.env
+
+# --- PYTHON ---
+# Archivos compilados que genera Python automáticamente (basura para GitHub)
+__pycache__/
+*.py[cod]
+
+# --- ENTORNOS VIRTUALES ---
+# Si creaste una carpeta venv, no queremos subirla (pesa mucho y es innecesaria)
+venv/
+env/
+.venv/
+
+# --- SISTEMA OPERATIVO ---
+# Archivos basura de Mac o Windows
+.DS_Store
+Thumbs.db
